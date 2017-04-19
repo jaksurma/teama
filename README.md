@@ -18,8 +18,8 @@ Repozytorium na laboratorium z TMC z Jeppesen
 
 Podczas pracy powtarzasz punkty 5-12, a ja 13.
 
-## Nie umiem gita, co zrobić?
+### Nie umiem gita, co zrobić?
 Się nauczyć.
 
-## Nie umiem GitHuba, co zrobić?
+### Nie umiem GitHuba, co zrobić?
 Się nauczyć.
