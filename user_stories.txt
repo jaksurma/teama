@@ -1,0 +1,11 @@
+BP - Business Priority
+
+1. As a Captain, after I land I want to have a possibility to choose my gate so as I can park according to directives from ATC (10 BP)
+2. As a Captain I want to see a taxi way from the runway to the chosen gate displayed on the chart diagram so as I am aware of how to maneuver (10 BP)
+3. As a Captain I want to send to the First Officer the gate I have chosen so we stay synchronized (8 BP)
+4. As a First Officer I want to be informed when I receive information about the chosen gate from the First Officer so as I stay synchronized with the Captain (2 BP)
+5. As a First Officer, once I receive information about the chosen gate, I want to see a taxi way from the runway to the chosen gate displayed on the chart diagram so I stay synchronized with the Captain (8 BP)
+6. As a First Officer I want to be able to remove from my chart display information about the chosen gate and the taxiway independently from the Captain (2 BP)
+7. As a Captain I want to be able to remove from my chart display information about the chosen gate and the taxiway so I do not see this information when it is not needed (6 BP)
+8. As a First Officer I want to be automatically informed when the Captain deletes the gate and the taxi way so as I stay synchronized with the Captain (6 BP)
+9. As a pilot I want to see the current position of my aircraft on the airport chart so as to be aware of my current position in reference to gates and taxiways (1 BP)
