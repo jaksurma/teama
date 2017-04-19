@@ -13,7 +13,7 @@ Repozytorium na laboratorium z TMC z Jeppesen
 9. git commit -am "Moje zmiany"
 10. git push origin twoj_branch
 11. Wchodzisz znowu na Github.
-12. Wybierz opcję Pull Request i wybierz twoj_branch jako rzecz do pulla.
+12. Wybierz opcję Pull Request i wybierz **master** jako **base** i **twoj_branch** jako **compare**.
 13. Ja akceptuję lub odrzucam zmiany.
 
 Podczas pracy powtarzasz punkty 5-12, a ja 13.
