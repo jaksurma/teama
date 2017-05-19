@@ -1,0 +1,70 @@
+**This draft is in .txt but correct Guide will be in PDF**
+
+1. GET Gates
+
+Get an array of gates (can be empty, never null) with their numbers and coordinates.
+
+Call example: GET http://localhost:8080/gates
+
+HTTP Code: 200
+Response body:
+{
+    "gates": [
+        {
+            "number": 10,
+            "lon": 10.4931,
+            "lat": 10.4392
+        },
+        {
+            "number": 19,
+            "lon": 9.4443,
+            "lat": 12.943
+        }
+    ]
+}
+
+2. POST Gate
+
+Send a gate number to be selected.
+It's called by the Captain device.
+
+Possible errors: "Invalid Gate Number"
+
+Call example: POST http://localhost:8080/gates
+Request body:
+{
+    "gate": 10
+}
+
+-- On success --
+HTTP Code: 200
+Response body:
+{}
+-- On failure --
+HTTP Code: 400
+Response body:
+{
+    "error": "Invalid Gate Number"
+}
+
+3. GET Selected Gate
+
+Get a gate number for the First Officer which was selected by the Captain.
+It's called by the First Officer device.
+
+Possible erros: "Captain did not select a gate"
+
+Call example: GET http://localhost:8080/gates/selected
+
+-- On success --
+HTTP Code: 200
+Response body:
+{
+    "gate": 4
+}
+-- On failure --
+HTTP Code: 400
+Response body:
+{
+    "error": "Captain did not select a gate"
+}
